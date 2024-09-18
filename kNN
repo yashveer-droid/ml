@@ -1,0 +1,3 @@
+number_of_samples = len(Y)
+random_indices = np.random.permutation(number_of_samples)
+num_training_samples = int(number_of_samples*0.75)
